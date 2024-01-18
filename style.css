@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(37, 36, 36);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+header h1 {
+    color: white;
+    white-space: nowrap;
+  }
+
+header section {
+    color: red;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main img {
+    max-height: 50vh;
+    margin: 1rem;
+}
