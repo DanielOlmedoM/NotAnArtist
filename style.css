@@ -39,7 +39,9 @@ header section {
 .main img {
     margin: 3vh;
     max-height: 50vh;
-    width: auto;
+    max-width: 20vw;
+    height: auto;
+    
 }
 
 footer {
