@@ -1,16 +1,29 @@
 body {
+    margin: 0;
+    overflow-x: hidden;
     background-color: rgb(37, 36, 36);
 }
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     white-space: nowrap;
+    background-color: rgb(73, 72, 72);
+    margin-bottom: 3vh;
+    width: 100%;
+    
+}
+
+header img {
+    height: 10vw;
 }
 
 header h1 {
+    display: flex;
     color: white;
     white-space: nowrap;
+    font-size: 2.5rem;
   }
 
 header section {
@@ -24,6 +37,36 @@ header section {
 }
 
 .main img {
+    margin: 3vh;
     max-height: 50vh;
-    margin: 1rem;
+    width: auto;
+}
+
+footer {
+    color: white;
+    background-color: rgb(73, 72, 72);
+    width: 100%;
+    margin-top: 3vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+@media screen and (max-width: 991px) {
+
+    header h1 {
+        display: flex;
+        color: white;
+        white-space: wrap;
+        font-size: 1.25rem;
+        max-width: 20vw;
+      } 
+
+      header section {
+        display: none;
+    }
+
+    header img {
+        height: 20vw;
+    }
+
 }
