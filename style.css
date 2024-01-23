@@ -15,11 +15,21 @@ header {
     background-color: rgb(73, 72, 72);
     width: 100%;
     overflow-x: hidden;
+}
 
+header a {
+    text-decoration: none;
+    color: white;
 }
 
 header img {
     height: 10vw;
+}
+
+header ul img {
+    height: 2rem;
+    width: auto;
+    margin: 0.5rem;
 }
 
 header ul {
