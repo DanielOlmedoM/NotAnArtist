@@ -89,6 +89,7 @@ header ul {
 
 
 footer {
+    display: flex;
     color: white;
     background-color: black;
     width: 100%;
@@ -159,4 +160,8 @@ footer a {
         width: 70vw;
     }
 
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
 }
