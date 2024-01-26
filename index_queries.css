@@ -50,5 +50,9 @@
         color: white;
         align-items: center;
     }
+
+    .galeria img { 
+        max-height:90vh;
+    }
       
   }

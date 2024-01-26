@@ -24,6 +24,7 @@ header a {
 
 header img {
     height: 12vw;
+    margin: 1rem;
 }
 
 header ul img {
@@ -57,16 +58,18 @@ header ul {
 }
 
 .hero {
-    background-color: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to top, gray 60%, transparent 40%);
     width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     padding: 0.3vw;
-    border-radius: 0.5rem;
-    box-shadow: 0.35rem 0.35rem 0.6rem rgba(0, 0, 0, 0.65); /* Box shadow on the right bottom side */
+    border-radius: 0.25rem;
+    /*box-shadow: 0.35rem 0.35rem 0.6rem rgba(0, 0, 0, 0.65); /* Box shadow on the right bottom side */
+    margin-top: -5rem;
 }
+
 
 .hero h1 {
     color: white;
@@ -79,6 +82,8 @@ header ul {
 }
 
 .hero-header h1 {
+    position: relative;
+    top: 2.75rem;
     font-size: 1rem;
     color: white;
 }
@@ -120,7 +125,7 @@ header ul {
 .galeria {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
